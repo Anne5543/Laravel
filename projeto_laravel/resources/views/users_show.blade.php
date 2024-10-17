@@ -6,5 +6,5 @@
 <form action="{{ route('users.destroy', ['user' => $user->id])}}" method="post">
     @csrf    
     <input type="hidden" name="_method" value="DELETE">
-    <button type="submit">Excluir</button>
+    <button type="submit" class="btn btn-danger">Excluir</button>
 </form>

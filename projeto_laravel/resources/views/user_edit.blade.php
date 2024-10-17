@@ -17,5 +17,5 @@
         <input type="text" name="firstName"  value="{{ $user-> firstName }}">
         <input type="text" name="lastName"  value="{{ $user-> lastName }}">
         <input type="text" name="email"  value="{{ $user-> email }}">
-        <button type="submit">Atualizar</button>
+        <button type="submit" class="btn btn-primary">Atualizar</button>
     </form>

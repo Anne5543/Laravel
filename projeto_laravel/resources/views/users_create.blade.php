@@ -17,5 +17,5 @@
         <input type="text" name="firstName" placeholder="Nome">
         <input type="text" name="lastName" placeholder="Sobrenome">
         <input type="text" name="email" placeholder="Email">
-        <button type="submit">Criar</button>
+        <button type="submit" class="btn btn-primary">Criar</button>
     </form>
